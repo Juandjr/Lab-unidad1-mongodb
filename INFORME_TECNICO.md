@@ -78,51 +78,18 @@
 
 # 9. Análisis Reflexivo:
 
-## 9.1. Pregunta 1: ¿Cuál fue la ventaja más significativa de usar un modelo de
+## 9.1. Pregunta 1: ¿Cuál fue la ventaja más significativa de usar un modelo de documento (MongoDB) para el caso "TechStore" en comparación con el modelo o relacional que diseñó?
 
-## documento (MongoDB) para el caso "TechStore" en comparación con el
+Que este no necesita hacer uso de múltiples tablas lo que ayuda a ahorrar memoria al momento de hacer consultas y también que los registros se encuentran en un solo registro este va a mostrar toda la información sin tener que hacer conexiones y para la información solo se debe filtrar los datos que se quieran ver.
 
-## modelo o relacional que diseñó?
+## 9.2. Pregunta 2: ¿Cómo facilita el anidamiento de documentos (el campo especificaciones) la gestión de datos heterogéneos (diferentes atributos por producto)?
 
-Que este no necesita hacer uso de múltiples tablas lo que ayuda a ahorrar memoria al
+Esto facilita debido a que sería como llamar a otra tabla en una base de datos relacional pero aquí ya lo tenemos en el mismo archivo y nos facilita las consultas, Y como lo divide similar debido a que es como varios campos dentro de un campo se ahorra las conexiones.
 
-momento de hacer consultas y también que los registros se encuentran en un solo registro
+## 9.3. Pregunta 3: ¿Qué problemas potenciales podría enfrentar esta base de datos a futuro si no se controla la flexibilidad del esquema (es decir, si se permite insertar cualquier dato)?
 
-este va a mostrar toda la información sin tener que hacer conexiones y para la información
-solo se debe filtrar los datos que se quieran ver.
+Puede que la base de datos se rellene de información no importante o que otros registros no tengan los mismos registros que otro por lo que en caso que se necesite esta información algunos no tendrán este dato.
 
+## 9.4. Pregunta 4: ¿Qué paso técnico recomendaría a continuación para "profesionalizar" esta base de datos? (Piense en rendimiento e integridad de datos que no cubrimos en este laboratorio).
 
-## 9.2. Pregunta 2: ¿Cómo facilita el anidamiento de documentos (el campo
-
-## especificaciones) la gestión de datos heterogéneos (diferentes atributos
-
-## por producto)?
-
-Esto facilita debido a que sería como llamar a otra tabla en una base de datos relacional pero
-aquí ya lo tenemos en el mismo archivo y nos facilita las consultas, Y como lo divide similar
-
-debido a que es como varios campos dentro de un campo se ahorra las conexiones.
-
-## 9.3. Pregunta 3: ¿Qué problemas potenciales podría enfrentar esta base de
-
-## datos a futuro si no se controla la flexibilidad del esquema (es decir, si
-
-## se permite insertar cualquier dato)?
-
-Puede que la base de datos se rellene de información no importante o que otros registros no
-tengan los mismos registros que otro por lo que en caso que se necesite esta información
-algunos no tendrán este dato.
-
-## 9.4. Pregunta 4: ¿Qué paso técnico recomendaría a continuación para
-
-## "profesionalizar" esta base de datos? (Piense en rendimiento e
-
-## integridad de datos que no cubrimos en este laboratorio).
-
-Hacer que al momento de crear la colección asignar algunos valores por defecto y requeridos,
-
-también ponerle un tipo de dato en específico así para que solo se pueda ingresar valores
-necesarios.
-
-
-
+Hacer que al momento de crear la colección asignar algunos valores por defecto y requeridos, también ponerle un tipo de dato en específico así para que solo se pueda ingresar valores necesarios.
