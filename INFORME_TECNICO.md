@@ -80,9 +80,8 @@ pocas líneas de código.
 ```
 # 2. Diseño del Modelo Relacional (Conceptual):
 
-```
 ![Error de carga / No encontrado](/img/drawio.png)
-```
+
 # 3. Diseño del Modelo NoSQL (MongoDB):
 
 ### {
@@ -126,25 +125,25 @@ pocas líneas de código.
 
 # 4. Preparación del Entorno:
 
-![Error de carga / No encontrado](/img/ 1 .png)
+![Error de carga / No encontrado](/img/1.png)
 
 # 5. Inserción de Datos (Create):
 
-![Error de carga / No encontrado](/img/ 2 .png)
+![Error de carga / No encontrado](/img/2.png)
 
 # 6. Lectura de Datos (Read):
 
-![Error de carga / No encontrado](/img/ 3 .png)
+![Error de carga / No encontrado](/img/3.png)
 
 # 7. Actualización de Datos (Update):
 
-![Error de carga / No encontrado](/img/ 4 .png)
+![Error de carga / No encontrado](/img/4.png)
 
 # 8. Resultados de la Ejecución:
 
-![Error de carga / No encontrado](/img/ 5 .png)
+![Error de carga / No encontrado](/img/5.png)
 
-![Error de carga / No encontrado](/img/ 6 .png)
+![Error de carga / No encontrado](/img/6.png)
 
 # 9. Análisis Reflexivo:
 
@@ -193,3 +192,4 @@ Hacer que al momento de crear la colección asignar algunos valores por defecto 
 
 también ponerle un tipo de dato en específico así para que solo se pueda ingresar valores
 necesarios.
+
