@@ -125,7 +125,7 @@ pocas líneas de código.
 
 # 4. Preparación del Entorno:
 
-![Error de carga / No encontrado](/img/1.png)
+![Error de carga / No encontrado](/img/1.PNG)
 
 # 5. Inserción de Datos (Create):
 
@@ -192,4 +192,5 @@ Hacer que al momento de crear la colección asignar algunos valores por defecto 
 
 también ponerle un tipo de dato en específico así para que solo se pueda ingresar valores
 necesarios.
+
 
