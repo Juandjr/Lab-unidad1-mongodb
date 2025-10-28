@@ -1,83 +1,14 @@
 # 1. Análisis comparativo:
 
-```
-Criterio Modelo Relacional No SQL Para “TechStore”
-Flexibilidad Flexibilidad
-limitada por los
-criterios
-establecidos al
-crear la base de
-datos
-```
-```
-Flexible debido a que
-no necesita tener los
-mismos valores
-establecidos para
-todos los registros
-(dependiendo de la
-estructura de la
-colección)
-```
-```
-Una base de datos no SQL
-facilitaría la generación de
-registros para la base de
-datos debido a que no es
-tan estricto con los
-criterios que deben tener.
-```
-```
-Modelo de
-Datos
-```
-```
-Se enfoca
-únicamente a los
-datos que se
-encuentran en las
-tablas
-```
-```
-Se genera una
-colección que puede
-contener de todo tipo
-de valores
-```
-```
-Al ser una sola colección la
-que contiene toda la
-información la obtención
-de los datos va a ser más
-rápido y por medio de
-filtros se puede especificar
-la información que se
-desea únicamente.
-Consulta de
-datos
-```
-```
-Se requiere usar
-Joins para traer
-toda la información
-desde múltiples
-tablas
-```
-```
-Como esta todo en
-una sola colección
-únicamente se llama a
-un solo documento
-```
-```
-Además que se evita usar
-muchas conexiones para
-realizar una consulta
-compleja, el llamar a una
-solo documento nos trae
-toda la información con
-pocas líneas de código.
-```
+## Análisis comparativo
+
+| **Criterio** | **Modelo Relacional** | **No SQL** | **Para “TechStore”** |
+|---------------|------------------------|-------------|------------------------|
+| **Flexibilidad** | Flexibilidad limitada por los criterios establecidos al crear la base de datos | Flexible debido a que no necesita tener los mismos valores establecidos para todos los registros (dependiendo de la estructura de la colección) | Una base de datos NoSQL facilitaría la generación de registros para la base de datos debido a que no es tan estricto con los criterios que deben tener. |
+| **Modelo de Datos** | Se enfoca únicamente a los datos que se encuentran en las tablas | Se genera una colección que puede contener de todo tipo de valores | Al ser una sola colección la que contiene toda la información, la obtención de los datos va a ser más rápida y por medio de filtros se puede especificar la información que se desea únicamente. |
+| **Consulta de datos** | Se requiere usar Joins para traer toda la información desde múltiples tablas | Como está todo en una sola colección, únicamente se llama a un solo documento | Además se evita usar muchas conexiones para realizar una consulta compleja; al llamar a un solo documento se obtiene toda la información con pocas líneas de código. |
+
+
 # 2. Diseño del Modelo Relacional (Conceptual):
 
 ![Error de carga / No encontrado](/img/drawio.png)
@@ -192,5 +123,6 @@ Hacer que al momento de crear la colección asignar algunos valores por defecto 
 
 también ponerle un tipo de dato en específico así para que solo se pueda ingresar valores
 necesarios.
+
 
 
