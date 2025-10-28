@@ -81,18 +81,18 @@ db.productos.find(
 
 //1. Se realizo la venta de 1 telefono por lo cual se le resta uno al stock
 db.productos.updateOne(
-    { nombre: "Rogue X10 Pro" },   // Buscar por nombre
-    { $inc: { stock: -1 } }        // Restar 1 unidad al stock
+    { nombre: "Rogue X10 Pro" }, 
+    { $inc: { stock: -1 } }
 );
 
 
 //2. Se aumenta el precio de la laptop y se añade un campo
 db.productos.updateOne(
-    { nombre: "Acer Predator Helios 300" },   // Buscar la laptop por nombre
+    { nombre: "Acer Predator Helios 300" },  
     { 
         $set: { 
-            precio: 1999.99,                   // Nuevo precio
-            ultima_revision: new Date()        // Fecha actual de la actualización
+            precio: 1999.99,    
+            ultima_revision: new Date()      
         }
     }
 );
