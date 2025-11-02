@@ -3,7 +3,7 @@ db.createCollection("productos",{
     validator: {
         $jsonSchema: {
             bsonType: "object",
-            required: ["nombre","sku","precio_unitario","stock","especificaciones"],
+            required: ["nombre","sku","tipo_producto","precio_unitario","stock","especificaciones"],
             properties: {
                 nombre: {
                     bsonType: "string"
@@ -11,9 +11,31 @@ db.createCollection("productos",{
                 sku: {
                     bsonType: "string"
                 },
+                tipo_producto: {
+                    bsonType: "string",
+                    enum: ["smartphones", "televisores", "laptops", "tablets", "smartwatches", "auriculares"]
+                },
                 precio_unitario: {
                     bsonType: "int"
-                }
+                },
+                stock: {
+                    bsonType: "int"
+                },
+                especificaciones: {
+                    bsonType: "object",
+                    required: ["marca","modelo","categoria"],
+                    properties: {
+                        marca: {
+                            bsonType: "string"
+                        },
+                        modelo: {
+                            bsonType: "string"
+                        },
+                        categoria: {
+                            bsonType: "string"
+                        },
+                    },  
+                },
             },
         },
     },
